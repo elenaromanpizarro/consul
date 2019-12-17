@@ -40,6 +40,7 @@ Rails.application.routes.draw do
   get "help",             to: "pages#show", id: "help/index",             as: "help"
   get "help/how-to-use",  to: "pages#show", id: "help/how_to_use/index",  as: "how_to_use"
   get "help/faq",         to: "pages#show", id: "faq",                    as: "faq"
+  get "model", to: redirect('/custom/maqueta/index')
 
   # Static pages
   resources :pages, path: "/", only: [:show]

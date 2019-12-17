@@ -10,14 +10,14 @@
 // 1. CONSUL variables
 // --------------------
 
-$base-font-size:      17px;
+$base-font-size:      12px;
 $base-line:           rem-calc(26);
 $small-font-size:     rem-calc(14);
 $line-height:         rem-calc(24);
 $tiny-font-size:      rem-calc(12);
 
-$brand:             #004a83;
-$dark:              darken($brand, 10%);
+$brand:             #B80830;
+$dark:              #333333;
 
 $text:              #222;
 $text-medium:       #515151;
@@ -39,7 +39,7 @@ $check:             #46db91;
 $proposals:         #ffa42d;
 $proposals-dark:    #794500;
 
-$budget:            #7e328a;
+$budget:            #365E80;
 $budget-hover:      #7571bf;
 
 $highlight:         #e7f2fc;

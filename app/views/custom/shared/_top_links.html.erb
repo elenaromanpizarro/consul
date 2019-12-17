@@ -1,0 +1,14 @@
+<ul class="no-bullet external-links">
+  <%= raw content_block("top_links", I18n.locale) %>
+  <li class="inline-block">
+    <a href="https://participa.getafe.es/more_information"><%= t("layouts.header.moreinfo") %></a>
+  </li>
+  <li class="inline-block">
+    <a href="https://gobiernoabierto.getafe.es/"><%=t("layouts.header.open_gov",open: t("layouts.header.open")) %></a>
+
+  </li>
+  <li class="inline-block">
+    <a href="https://participa.getafe.es/normativa-presupuestos-participativos-2018"><%=t("layouts.header.norppart",yearNorm: t("layouts.header.yearNorm")) %>
+    </a>
+  </li>
+</ul>
